@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'Quantum-Kyaru'
+        description: 'Branch of kernel source'
         required: true
       tc:
         description: 'Toolchain'
