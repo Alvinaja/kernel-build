@@ -30,7 +30,7 @@ jobs:
        - name: Build
          run: |
               pacman -Syu --needed --noconfirm inetutils bc cpio git
-              git clone --depth=1 https://github.com/Alvinaja/RTX-2080-Merlin -b $BRANCH kernel
+              git clone --depth=1 https://github.com/KuroSeinenbutV2/Kuro-Kyaru-Merlin -b $BRANCH kernel
               cd kernel
               wget https://raw.githubusercontent.com/Renayura/Scripts/master/kernel-build.sh
               bash kernel-build.sh $TC
