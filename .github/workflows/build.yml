@@ -32,5 +32,5 @@ jobs:
               pacman -Syu --needed --noconfirm inetutils bc cpio git
               git clone --depth=1 https://github.com/Alvinaja/RTX-2080-OC-Merlin -b $BRANCH kernel
               cd kernel
-              wget https://github.com/Alvinaja/Scripts/blob/master/kernel-build.sh
+              wget https://github.com/Alvinaja/kernel-build/blob/main/kernel-build.sh
               bash kernel-build.sh $TC
