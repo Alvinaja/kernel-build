@@ -30,7 +30,7 @@ jobs:
        - name: Build
          run: |
               pacman -Syu --needed --noconfirm inetutils bc cpio git
-              git clone --depth=1 https://github.com/Alvinaja/RTX-2080-OC-Merlin -b $BRANCH kernel
+              git clone --depth=1 https://github.com/Alvinaja/kernel_xiaomi_mt6768 -b $BRANCH kernel
               cd kernel
               wget https://raw.githubusercontent.com/Renayura/Scripts/master/kernel-build.sh
               bash kernel-build.sh $TC
